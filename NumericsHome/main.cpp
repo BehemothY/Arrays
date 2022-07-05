@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 #define tab "\t"
 //#define DEC_TO_BIN
@@ -9,7 +9,7 @@ void main()
 
 #ifdef DEC_TO_BIN
 	int DEC;
-	cout << "Ââåäèòå äåñÿòè÷íîå ÷èñëî :"; cin >> DEC;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´ÐµÑÑÑ‚Ð¸Ñ‡Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ :"; cin >> DEC;
 	const int MAX_SIZE = 32;
 	bool BIN[MAX_SIZE] = {};
 	int i = 0;
@@ -26,7 +26,7 @@ void main()
 
 #endif // DEC_TO_BIN
 	int dec;
-	cout << "Ââåäèòå äåñÿòè÷íîå ÷èñëî:"; cin >> dec;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´ÐµÑÑÑ‚Ð¸Ñ‡Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾:"; cin >> dec;
 	const int n = 8;
 	int hex[n] = {};
 	int i = 0;
